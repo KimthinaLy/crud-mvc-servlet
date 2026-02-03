@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 1, 2026, 5:02:05 PM
+    Author     : Admin
+*/
+
+
+th:nth-child(1),
+td:nth-child(1){
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2){
+    width: 45%;
+}
+
+th:nth-child(3),
+td:nth-child(3){
+    width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4){
+    width: 15%;
+}
+
+th:nth-child(5),
+td:nth-child(5){
+    width: 15%;
+}
+
+.update-action{
+  background-color: #315c7a;
+}
+
+.update-product{
+    color:  #315c7a;
+}
+
+.update-product:hover{
+    color: #748ea1;
+}

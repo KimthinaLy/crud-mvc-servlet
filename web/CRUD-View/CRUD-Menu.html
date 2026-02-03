@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CRUD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style/general.css">
+        <link rel="stylesheet" href="./style/crud-menu-style.css">
+        <link rel="stylesheet" href="./style/header.css">
+    </head>
+    <body>
+        <header>
+            <div class="flex-container">
+                <div class="heading-title">Baby Essential Product Management System</div>
+                <form action="authentication" method="post">
+                    <input type="hidden" name="action" value="logout"/>
+                    <button type="submit" class="logout-btn">Logout</button>
+                </form>
+            </div>
+        </header>
+        <hr>
+        <main>
+            <h2>CRUD Menu</h2>
+            <div class="alignment-flexbox">
+                <div class="CRUD-grid-container">
+                    <div class="create-action"><a href="products?action=new">Add New Product</a></div>
+                    <div class="read-action"><a href="products?action=view">Show Product Database</a></div>
+                    <div class="update-action"><a href="products?action=editTable">Update Existing Product</a></div>
+                    <div class="delete-action"><a href="products?action=deleteTable">Remove Product</a></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

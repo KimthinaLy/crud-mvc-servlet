@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 25, 2025, 9:35:12 PM
+    Author     : Admin
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 22, 2025, 6:42:20 PM
+    Author     : Admin
+*/
+
+th:nth-child(1),
+td:nth-child(1){
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2){
+    width: 45%;
+}
+
+th:nth-child(3),
+td:nth-child(3){
+    width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4){
+    width: 15%;
+}
+
+th:nth-child(5),
+td:nth-child(5){
+    width: 15%;
+}
+
+.danger-action{
+  background-color: #dc3545;
+}
+
+.danger-remove{
+    color:  #dc3545;
+}
+
+.danger-remove:hover{
+    color: #9e2430;
+}

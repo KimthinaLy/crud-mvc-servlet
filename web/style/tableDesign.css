@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 25, 2025, 9:36:10 PM
+    Author     : Admin
+*/
+
+table{
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(240, 247, 247);
+}
+
+tr:nth-child(even){
+    background-color: rgb(255,255,255);
+}
+
+th{
+    background-color: #3C7299;
+    color: white;
+    text-align: start;
+}
+
+th,td{
+    padding: 10px 5px;
+}
+
+th:nth-child(1),
+td:nth-child(1){
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2){
+    width: 50%;
+}
+
+th:nth-child(3),
+td:nth-child(3){
+    width: 20%;
+}
+
+th:nth-child(4),
+td:nth-child(4){
+    width: 20%;
+}
+
+.product-actions{
+    display: flex;
+    justify-content:end; 
+    gap: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: #2792B3;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /*box-shadow: h-offset v-offset blur-radius spread-radius color;*/
+}
+
+.btn:hover{
+    background-color: #1d708a;
+}
+
+.btn-danger{
+     background-color: #dc3545;
+}
+
+.btn-danger:hover{
+    background-color: #9e2430
+}

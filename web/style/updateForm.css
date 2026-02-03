@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 3, 2026, 12:26:54 AM
+    Author     : Admin
+*/
+
+legend{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+fieldset{
+    max-width: 700px;
+    padding-bottom: 30px;
+}
+
+th{
+    width: 200px;
+    text-align: left;
+}
+
+input{
+    font-size: 16px;
+    padding: 4px;
+}
+
+.input-field{
+       width: 450px;
+}
+
+th{
+    padding: 8px 10px;
+    font-size: 18px;
+}
+
+.immutable-id{
+    border: 1px solid gray;
+    font-size: 16px;
+    padding: 6px 4px;;
+    border-radius: 2px;
+    display: inline-block;
+    width: 450px;
+}
+
+
+.update-button{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #2792B3;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.update-button:hover{
+    background-color: #1d708a;
+}
